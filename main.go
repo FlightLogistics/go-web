@@ -9,6 +9,7 @@ func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "<H1>Good morning this is the goweb Service</H1>")
 		fmt.Fprintf(w, "<p>It runs on www.heliflyer.org.uk</p>")
+		fmt.Fprintf(w, "<p>I added another line</p>")
 	})
 
 	http.HandleFunc("/greet/", func(w http.ResponseWriter, r *http.Request) {
