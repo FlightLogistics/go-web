@@ -11,8 +11,11 @@ func main() {
 		fmt.Fprintf(w, "<p>It runs on www.heliflyer.org.uk</p>")
 		fmt.Fprintf(w, "<p>I added another line</p>")
 		fmt.Fprintf(w, "<p>I added another line again</p>")
+<<<<<<< HEAD
 		fmt.Fprintf(w, "<p>I added another line again and again</p>")
 
+=======
+>>>>>>> 2e12b306eef80b4ee0be11baaef97b9af858498a
 	})
 
 	http.HandleFunc("/greet/", func(w http.ResponseWriter, r *http.Request) {
