@@ -14,6 +14,7 @@ func main() {
 
 		fmt.Fprintf(w, "<p>I added another line again now</p>")
 		fmt.Fprintf(w, "<p>incredible</p>")
+		fmt.Fprintf(w, "<p>Can this go on?</p>")
 	})
 
 	http.HandleFunc("/greet/", func(w http.ResponseWriter, r *http.Request) {
