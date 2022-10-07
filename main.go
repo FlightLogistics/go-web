@@ -17,6 +17,7 @@ func main() {
 		fmt.Fprintf(w, "<p>Can this go on?</p>")
 		fmt.Fprintf(w, "<p>Not sure</p>")
 		fmt.Fprintf(w, "<p>probably?</p>")
+		fmt.Fprintf(w, "<p>probably the latest?</p>")
 	})
 
 	http.HandleFunc("/greet/", func(w http.ResponseWriter, r *http.Request) {
